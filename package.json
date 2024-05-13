@@ -1,15 +1,21 @@
 {
-  "name": "create-node-backend",
-  "version": "1.0.0",
+  "name": "create-nodejs-starter",
+  "version": "1.0.3",
   "main": "index.js",
-  "bin": "./bin/cli/js",
+  "bin": "./bin/cli.js",
   "type": "module",
   "scripts": {
     "start": "node -r dotenv/config --experimental-json-modules index.js",
     "dev": "nodemon -r dotenv/config --experimental-json-modules index.js",
     "eslint": "npx eslint ."
   },
-  "keywords": [],
+  "keywords": [
+    "node",
+    "backend",
+    "express",
+    "mongoose",
+    "starter-template"
+  ],
   "author": "",
   "license": "ISC",
   "description": "",
